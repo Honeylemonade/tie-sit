@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key>
+    <string>TIE-SIT</string>
+    <key>CFBundleDisplayName</key>
+    <string>起立令</string>
+    <key>CFBundleExecutable</key>
+    <string>TIESit</string>
+    <key>CFBundleIdentifier</key>
+    <string>local.tiesit.app</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>0.1</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>13.0</string>
+
+    <!-- 菜单栏应用：不进 Dock，不占 Cmd+Tab -->
+    <key>LSUIElement</key>
+    <true/>
+
+    <key>NSHumanReadableCopyright</key>
+    <string>Local use only.</string>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+
+    <!-- 无需任何隐私权限：不联网、不读日历、不读通讯录 -->
+    <key>NSSupportsAutomaticGraphicsSwitching</key>
+    <true/>
+</dict>
+</plist>
